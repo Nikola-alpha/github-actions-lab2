@@ -1,7 +1,5 @@
 name: Installing Python
-
-on: [push]
-
+on: push
 jobs:
   build:
     runs-on: '{{ matrix.os }}'
